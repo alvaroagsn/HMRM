@@ -8,7 +8,7 @@ from hmrm.configuration.data import OutputDirectory, InputDirectory
 from hmrm.base.hmrmBaseline import HmrmBaseline
 
 if __name__ == "__main__":
-    base_dir = "/media/gegen07/Expansion/data/mestrado/checkins_data/checkins_local"
+    base_dir = "/media/gegen07/Expansion/data/mestrado/checkins_data/top-k-checkins"
     file = os.path.join(base_dir, "checkins_local_Alabama.csv")
 
     weight = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]

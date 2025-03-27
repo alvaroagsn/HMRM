@@ -6,10 +6,11 @@ warnings.filterwarnings("ignore")
 
 from hmrm.configuration.data import OutputDirectory, InputDirectory
 from hmrm.base.hmrmBaseline import HmrmBaseline
+from hmrm.base.hmrm_new import HmrmBaselineNew
 
 if __name__ == "__main__":
-    base_dir = "/media/gegen07/Expansion/data/mestrado/checkins_data/checkins_local"
-    file = os.path.join(base_dir, "checkins_local_California.csv")
+    base_dir = "C:/Users/alvar/OneDrive/Documentos/GitHub/HMRM/hmrm/data"
+    file = os.path.join(base_dir, "pois_local_Illinois_cat_placeid.csv")
 
     weight = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
     K = [7]

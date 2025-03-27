@@ -10,6 +10,8 @@ class HmrmBaseline:
         self.optimizer = Optimizer()
         self.input = InputDirectory(file)
         self.weight = weight
+
+        
         self.K = K
         self.embedding_size = embedding_size
 
